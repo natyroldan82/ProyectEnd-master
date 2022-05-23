@@ -1,0 +1,12 @@
+
+/*nesting*/
+
+@import 'base/globales';
+@import'base/variables';
+@import 'base/mixins';
+@import 'base/utilidades';
+@import 'base/normalize';
+
+/*ui*/
+@import 'sections/header';
+@import 'sections/navegacion';
