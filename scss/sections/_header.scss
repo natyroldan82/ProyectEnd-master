@@ -1,14 +1,9 @@
-.no-webp .inicio {
-    background-image:url(../img/pexels-jpg.jpg);
-}
-.webp .inicio{
-    background-image: url(../img/pexels-webp.webp);
-}
-.header{
-    background-color: $gris-oscuro;
+.header {
+    background-image: url(../scss/img/pexels-jpg.jpg);
     padding: 1rem 0 5rem 0;
-    
-}
+    background-size: cover;
+  }
+
 
 .contenido-header {
     display: flex;
