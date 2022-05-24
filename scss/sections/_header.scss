@@ -8,15 +8,15 @@
 .contenido-header {
     display: flex;
     flex-direction: column;
-    justify-content: space-between ;
+    justify-content:space-between ;
     @include tablet{
         min-height: 70rem;
     }
     h1 {
         text-align: center;
         color: $blanco;
-        font-weight: bold;
-        max-width: 60rem;
+        font-weight: $bold;
+        max-width: 55rem;
 
     }
 }
