@@ -1,6 +1,6 @@
 
 .contenedor-anuncios{
-         @include grid(3,3rem);
+         @include grid(3,2rem);
          }
 
 .anuncio{
@@ -11,7 +11,7 @@
          
 .contenido-anuncio{
     padding: 2rem ;
-
+    
     
     
 } 
@@ -27,4 +27,8 @@ h3, p{
 .precio{
     color: $amarillo;
     font-weight: $bold;
+}
+.btn{
+    color: $verde;
+    border-radius: 1rem;
 }    

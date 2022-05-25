@@ -490,7 +490,7 @@ template {
 
 .contenedor-anuncios {
   display: grid;
-  gap: 3rem;
+  gap: 2rem;
   grid-template-columns: repeat(3, 1fr);
 }
 
@@ -515,6 +515,11 @@ h3, p {
 .precio {
   color: #E08709;
   font-weight: 600;
+}
+
+.btn {
+  color: #71B100;
+  border-radius: 1rem;
 }
 
 .id {
