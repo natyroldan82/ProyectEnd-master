@@ -1,11 +1,30 @@
 
 .contenedor-anuncios{
-         @include grid(3,2rem);
+         @include grid(3,3rem);
          }
 
 .anuncio{
-     background-color: lighten($gris-oscuro,5);
-     border: 2px solid lighten($verde, 5);
+     background-color: lighten($gris-claro,5);
+     border: 2px solid lighten($gris-claro, 5);
+     font-family: $font;
          }
          
-        
+.contenido-anuncio{
+    padding: 2rem ;
+
+    
+    
+} 
+h3, p{
+    margin:0;
+    
+}  
+.seccion {
+    h2{
+        text-align: center;
+    }
+} 
+.precio{
+    color: $amarillo;
+    font-weight: $bold;
+}    

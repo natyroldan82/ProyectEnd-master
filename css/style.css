@@ -1,5 +1,5 @@
 /*nesting*/
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,400;0,600;1,300&display=swap");
 html {
   font-size: 62.5%;
   box-sizing: border-box;
@@ -418,7 +418,7 @@ template {
 .contenido-header h1 {
   text-align: center;
   color: #EDEDED;
-  font-weight: 700;
+  font-weight: 600;
   max-width: 55rem;
 }
 
@@ -490,13 +490,31 @@ template {
 
 .contenedor-anuncios {
   display: grid;
-  gap: 2rem;
+  gap: 3rem;
   grid-template-columns: repeat(3, 1fr);
 }
 
 .anuncio {
-  background-color: #515151;
-  border: 2px solid #81cb00;
+  background-color: #c2bdbd;
+  border: 2px solid #c2bdbd;
+  font-family: "Krub", sans-serif;
+}
+
+.contenido-anuncio {
+  padding: 2rem;
+}
+
+h3, p {
+  margin: 0;
+}
+
+.seccion h2 {
+  text-align: center;
+}
+
+.precio {
+  color: #E08709;
+  font-weight: 600;
 }
 
 .id {
@@ -515,7 +533,7 @@ template {
 }
 .imagen-contacto h2 {
   font-size: 3rem;
-  font-weight: 700;
+  font-weight: 600;
   color: #EDEDED;
 }
 .imagen-contacto span {
@@ -529,7 +547,7 @@ template {
   background-color: #444444;
   color: #E08709;
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 600;
   border-radius: 1rem;
 }
 
@@ -553,7 +571,7 @@ template {
 
 .contenedor.seccion h1 {
   color: #71B100;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=style.css.map */

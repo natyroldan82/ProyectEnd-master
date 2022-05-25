@@ -1,7 +1,7 @@
 
 //fuentes
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap');
-$fuente-principal:'Lato', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,400;0,600;1,300&display=swap');
+$font:'Krub', sans-serif;
 //media queries
 $telefono:480px;
 $tablet:768px;
@@ -13,7 +13,7 @@ $desktop:1024px;
 $gris-oscuro:#444444;
 $rojo: #DA0037;
 $blanco:#EDEDED;
-$gris-claro:#948d8d;
+$gris-claro:#b6b0b0;
 
 $amarillo: #E08709;
 $verde: #71B100;
@@ -22,7 +22,7 @@ $separacion: 5rem;
 
 
 $regular:400;
-$bold:700;
+$bold:600;
 
  $columnas: 1fr;
 $espaciado:1rem;
