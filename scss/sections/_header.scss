@@ -1,7 +1,12 @@
-.header {
+ .inicio {
     background-image: url(../scss/img/pexels-jpg.jpg);
     padding: 1rem 0 5rem 0;
     background-size: cover;
+    min-height: 80rem;
+    &.header{
+        background-color: $gris-oscuro;
+    padding: 1rem 0 3rem 0 ;
+    }
   }
 
 

@@ -2,7 +2,7 @@
 /*nesting*/
 
 @import 'base/globales';
-@import'base/variables';
+@import 'base/variables';
 @import 'base/mixins';
 @import 'base/utilidades';
 @import 'base/normalize';
@@ -11,7 +11,7 @@
 @import 'sections/header';
 @import 'sections/navegacion';
 @import 'sections/iconos';
-@import 'sections/anuncios';
+@import './sections/anuncios';
 @import './sections/contactar';
 @import './sections/nosotros';
 

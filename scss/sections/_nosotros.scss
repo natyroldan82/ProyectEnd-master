@@ -1,6 +1,22 @@
-.contenido-nosotros{
-    @include grid(2, 2rem)
-    }
-.texto-nosotros{
 
+    .header{
+        background-color: $gris-oscuro;
+    padding: 1rem 0 3rem 0 ;
+    height:20rem ;
+    
+    }
+  .contenido-nosotros{
+      @include tablet{
+         @include grid(2, 2rem);
+      }
+     padding-bottom: 5rem;
+     padding-right: 15rem;
+    }
+  
+.contenedor.seccion{
+    h1{
+        color:$verde;
+        font-weight: $bold;
+    }
 }
+

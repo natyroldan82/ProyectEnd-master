@@ -1,28 +1,30 @@
 .barra{
-  
    display: flex;
    flex-direction: column;
    padding-top: 2rem;
+  
    @include tablet{
       flex-direction: row;
       justify-content: space-between;
    }
 }
-.navegacion{
+
+.navbar-nav{
    @include tablet{
       display: flex;
       align-items: center;
+      color: $blanco;
    }
-   
    a{
    
-   color: $blanco;
-   text-decoration: none;
-   font-size: 2.2rem;
-   display: block;
-   text-align: center;
-   @include tablet{
-      margin-right: 2rem;
+      color: $blanco;
+      text-decoration: none;
+      font-size: 2.2rem;
+      display: block;
+      text-align: center;
+      @include tablet{
+         margin-right: 2rem;
+      }
    }
-}
+  
 }
