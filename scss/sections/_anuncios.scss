@@ -1,20 +1,26 @@
-
-.contenedor-anuncios{
-         @include grid(3,2rem);
+@include tablet{
+    .contenedor-anuncios{
+         @include grid(3, 2rem);
+         
          }
+         
+         
+        } 
+
 
 .anuncio{
      background-color: lighten($gris-claro,5);
      border: 2px solid lighten($gris-claro, 5);
      font-family: $font;
+     padding-right: 2rem;
+    
          }
-         
+        
 .contenido-anuncio{
     padding: 2rem ;
-    
-    
-    
-} 
+    } 
+
+
 h3, p{
     margin:0;
     
@@ -22,13 +28,20 @@ h3, p{
 .seccion {
     h2{
         text-align: center;
-    }
-} 
+        padding: 2rem;
+       
+} }
 .precio{
     color: $amarillo;
     font-weight: $bold;
+    font-size: 3rem;
 }
 .btn{
     color: $verde;
     border-radius: 1rem;
-}    
+}  
+
+.navbar-toggler{
+    background-color: $blanco;
+    
+}
