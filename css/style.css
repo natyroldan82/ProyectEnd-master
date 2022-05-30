@@ -12,6 +12,7 @@ html {
 body {
   font-size: 1.6rem;
   line-height: 1.8;
+  max-width: auto;
 }
 
 p {
@@ -21,7 +22,6 @@ p {
 .contenedor {
   width: 95%;
   max-width: 120rem;
-  margin: 0 auto;
 }
 
 a {
@@ -394,11 +394,29 @@ template {
 }
 
 /*ui*/
+/*.no-webp{
+   background-image: url(/assets/img/header.jpg);
+
+}
+.webp.inicio{
+    background-image: url(/assets/img/header.webp);
+}
+.header{
+    background-color: $gris-oscuro;
+    padding: 1rem 0 3rem 0;
+}*/
 .inicio {
-  background-image: url("assets/img/pexels-jpg.jpg");
+  background-image: url(../assets/img/pexels-webp.webp);
   padding: 1rem 0 5rem 0;
   background-size: cover;
-  min-height: 80rem;
+  background-position: center center;
+  min-height: 50rem;
+  display: flex;
+}
+@media (min-width: 768px) {
+  .inicio {
+    min-height: 70rem;
+  }
 }
 .inicio.header {
   background-color: #444444;
@@ -416,7 +434,7 @@ template {
   }
 }
 .contenido-header h1 {
-  text-align: center;
+  text-align: left;
   color: #EDEDED;
   font-weight: 600;
   max-width: 55rem;
@@ -434,6 +452,10 @@ template {
   display: flex;
   flex-direction: column;
   padding-top: 2rem;
+}
+.barra img {
+  width: 30rem;
+  margin-left: 5rem;
 }
 @media (min-width: 768px) {
   .barra {
@@ -459,6 +481,9 @@ template {
 @media (min-width: 768px) {
   .navbar-nav a {
     margin-right: 2rem;
+  }
+  .navbar-nav a:last-of-type {
+    margin-right: 0;
   }
 }
 
@@ -486,6 +511,7 @@ template {
 .contenedor h1 {
   text-align: center;
   text-transform: uppercase;
+  padding: 3rem 0;
 }
 
 .contenedor-anuncios {
@@ -523,7 +549,7 @@ h3, p {
 }
 
 .id {
-  background-image: url(../scss/img/encuentra.jpg);
+  background-image: url(../assets/img/encuentra.jpg);
   padding: 1rem 0 5rem 0;
   background-size: cover;
 }
@@ -577,6 +603,44 @@ h3, p {
 .contenedor.seccion h1 {
   color: #71B100;
   font-weight: 600;
+}
+
+.contenedor-formulario {
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  padding: 5rem 0;
+}
+
+.formulario {
+  background-color: #b6b0b0;
+  width: 50%;
+}
+.formulario p {
+  font-size: 1.4rem;
+  color: #444444;
+  margin: 2rem 0 0 0;
+}
+.formulario legend {
+  font-size: 2rem;
+  color: #444444;
+}
+.formulario label {
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0.5rem;
+}
+.formulario input:not([type=submit]) {
+  padding: 1rem;
+  width: 100%;
+  background-color: #EDEDED;
+  border: 1px solid #b6b0b0;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+
+h2, h1 {
+  color: #71B100;
 }
 
 /*# sourceMappingURL=style.css.map */

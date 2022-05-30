@@ -1,11 +1,32 @@
+ 
+ /*.no-webp{
+    background-image: url(/assets/img/header.jpg);
+
+ }
+ .webp.inicio{
+     background-image: url(/assets/img/header.webp);
+ }
+ .header{
+     background-color: $gris-oscuro;
+     padding: 1rem 0 3rem 0;
+ }*/
  .inicio {
-    background-image: url('assets/img/pexels-jpg.jpg');
+    background-image: url(../assets/img/pexels-webp.webp);
     padding: 1rem 0 5rem 0;
     background-size: cover;
-    min-height: 80rem;
+    background-position: center center;
+    min-height: 50rem;
+    display: flex;
+    @include tablet{
+        min-height: 70rem;
+    }
+    
     &.header{
         background-color: $gris-oscuro;
     padding: 1rem 0 3rem 0 ;
+    
+    
+    
     }
   }
 
@@ -17,8 +38,10 @@
     @include tablet{
         min-height: 70rem;
     }
+    
+    
     h1 {
-        text-align: center;
+        text-align: left;
         color: $blanco;
         font-weight: $bold;
         max-width: 55rem;

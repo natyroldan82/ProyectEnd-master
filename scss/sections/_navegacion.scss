@@ -1,8 +1,15 @@
 .barra{
    display: flex;
    flex-direction: column;
+
    padding-top: 2rem;
   
+   
+  img{
+   width: 30rem;
+      margin-left: 5rem;
+      
+  }
    @include tablet{
       flex-direction: row;
       justify-content: space-between;
@@ -15,6 +22,7 @@
       align-items: center;
       color: $blanco;
    }
+  
    a{
    
       color: $blanco;
@@ -24,6 +32,9 @@
       text-align: center;
       @include tablet{
          margin-right: 2rem;
+         &:last-of-type{
+            margin-right: 0;
+         }
       }
    }
   

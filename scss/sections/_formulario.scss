@@ -1,0 +1,40 @@
+.contenedor-formulario {
+    background-color:red;
+    display: flex;
+    flex-direction: row;
+    padding: 5rem 0 ;
+  
+
+}
+
+.formulario{
+    background-color: $gris-claro;
+    width: 50%;
+ 
+   
+    p {
+        font-size: 1.4rem;
+        color:$gris-oscuro;
+        margin: 2rem 0 0 0;}
+     legend{
+         font-size: 2rem;
+         color: $gris-oscuro;
+     }   
+     label{
+        font-weight: $bold;
+        text-transform: uppercase;
+        margin: 0.5rem;
+       
+        
+     }
+    input:not([type="submit"]){
+       
+        padding: 1rem;
+        width: 100%;
+        background-color: $blanco;
+        border: 1px solid $gris-claro;
+        border-radius: 1rem;
+        margin-bottom: 2rem;
+     }
+    }
+    h2,h1{color:$verde}
