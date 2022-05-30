@@ -1,16 +1,20 @@
 
     .header{
-        background-color: $gris-oscuro;
+    background-color: $gris-oscuro;
     padding: 1rem 0 3rem 0 ;
     height:20rem ;
     
     }
   .contenido-nosotros{
+     
       @include tablet{
-         @include grid(2, 2rem);
+        
+         @include grid(2, 5rem);
+         
       }
      padding-bottom: 5rem;
      padding-right: 15rem;
+    
     }
   
 .contenedor.seccion{

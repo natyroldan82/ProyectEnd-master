@@ -23,12 +23,12 @@
 
 h3, p{
     margin:0;
-    
+    text-align: center;
 }  
 .seccion {
     h2{
         text-align: center;
-        padding: 2rem;
+        padding: 3rem;
        
 } }
 .precio{
@@ -40,8 +40,10 @@ h3, p{
     color: $verde;
     border-radius: 1rem;
 }  
-
-.navbar-toggler{
-    background-color: $blanco;
-    
+h2{
+    text-align: center;
+    padding: 3rem;
+}
+.carousel-item{
+    height:auto;
 }
