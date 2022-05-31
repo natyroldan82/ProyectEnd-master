@@ -1,6 +1,5 @@
 @include tablet{
 .contenedor-formulario {
-    
    
     @include grid(2,5rem);
     
@@ -48,4 +47,6 @@
         margin-bottom: 2rem;
      }
     }
-    h2,h1{color:$verde}
+    h2,h1{font-family: $font;
+        font-weight: $bold;
+        color:$verde}

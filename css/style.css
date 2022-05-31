@@ -460,6 +460,7 @@ template {
   background-color: #444444;
   padding: 1rem 0 3rem 0;
   font-family: "Krub", sans-serif;
+  font-weight: 600;
 }
 
 .contenido-header {
@@ -702,6 +703,8 @@ h2 {
 }
 
 h2, h1 {
+  font-family: "Krub", sans-serif;
+  font-weight: 600;
   color: #71B100;
 }
 
