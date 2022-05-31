@@ -3,6 +3,7 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+  scroll-snap-type: y mandatory;
 }
 
 *, *:before, *:after {
@@ -398,6 +399,38 @@ template {
   display: none;
 }
 
+.boton-amarillo {
+  background-color: #E08709;
+  color: #EDEDED;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 1rem 3rem;
+  text-align: center;
+  margin-top: 2.5rem;
+  display: block;
+  border: none;
+}
+.boton-amarillo:hover {
+  background-color: #c77808;
+  cursor: pointer;
+}
+
+.boton-verde {
+  background-color: #71B100;
+  color: #EDEDED;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 1rem 3rem;
+  text-align: center;
+  margin-top: 2.5rem;
+  display: inline-block;
+  border: none;
+}
+.boton-verde:hover {
+  background-color: #619800;
+  cursor: pointer;
+}
+
 /*ui*/
 /*.no-webp{
    background-image: url(/assets/img/header.jpg);
@@ -469,6 +502,7 @@ template {
   .navbar-nav {
     display: flex;
     align-items: center;
+    color: #444444;
   }
 }
 .navbar-nav a {
@@ -492,19 +526,22 @@ template {
     display: grid;
     gap: 2rem;
     grid-template-columns: repeat(3, 1fr);
+    padding: 2rem 0;
   }
 }
-.iconos {
-  text-align: center;
-}
-.iconos img {
-  height: 25rem;
-}
-.iconos h3 {
+/*
+.iconos{
+    text-align: center;
+    img{
+        height: 25rem;
+    }
+    */
+h3 {
   text-transform: uppercase;
   font-size: 2.5rem;
 }
-.iconos p {
+
+p {
   font-size: 1.8rem;
 }
 
@@ -562,6 +599,8 @@ h2 {
   background-image: url(../assets/img/encuentra.jpg);
   padding: 1rem 0 5rem 0;
   background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 .imagen-contacto {
