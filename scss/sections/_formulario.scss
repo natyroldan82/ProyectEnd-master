@@ -1,15 +1,23 @@
+@include tablet{
 .contenedor-formulario {
-    background-color:red;
-    display: flex;
-    flex-direction: row;
-    padding: 5rem 0 ;
-  
-
+    
+   
+    @include grid(2,5rem);
+    
+    padding: 5rem  ;
+    
+    }
+    
+}
+.ubicacion{
+    
+    grid-column: 2/3;
+    padding-bottom: 5rem;
 }
 
 .formulario{
     background-color: $gris-claro;
-    width: 50%;
+    max-width: 100%;
  
    
     p {
@@ -19,6 +27,7 @@
      legend{
          font-size: 2rem;
          color: $gris-oscuro;
+         font-weight: $bold;
      }   
      label{
         font-weight: $bold;
@@ -29,7 +38,7 @@
      }
     input:not([type="submit"]){
        
-        padding: 1rem;
+        padding: 1.5rem;
         width: 100%;
         background-color: $blanco;
         border: 1px solid $gris-claro;

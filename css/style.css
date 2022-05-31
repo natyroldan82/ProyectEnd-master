@@ -449,10 +449,6 @@ template {
   font-size: 3rem;
 }
 
-.nav-link {
-  color: #EDEDED;
-}
-
 .barra {
   display: flex;
   flex-direction: column;
@@ -473,7 +469,6 @@ template {
   .navbar-nav {
     display: flex;
     align-items: center;
-    color: #EDEDED;
   }
 }
 .navbar-nav a {
@@ -563,10 +558,6 @@ h2 {
   padding: 3rem;
 }
 
-.carousel-item {
-  height: auto;
-}
-
 .id {
   background-image: url(../assets/img/encuentra.jpg);
   padding: 1rem 0 5rem 0;
@@ -624,16 +615,26 @@ h2 {
   font-weight: 600;
 }
 
-.contenedor-formulario {
-  background-color: red;
-  display: flex;
-  flex-direction: row;
-  padding: 5rem 0;
+.navbar-toggler {
+  background-color: #EDEDED;
+}
+
+@media (min-width: 768px) {
+  .contenedor-formulario {
+    display: grid;
+    gap: 5rem;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5rem;
+  }
+}
+.ubicacion {
+  grid-column: 2/3;
+  padding-bottom: 5rem;
 }
 
 .formulario {
   background-color: #b6b0b0;
-  width: 50%;
+  max-width: 100%;
 }
 .formulario p {
   font-size: 1.4rem;
@@ -643,6 +644,7 @@ h2 {
 .formulario legend {
   font-size: 2rem;
   color: #444444;
+  font-weight: 600;
 }
 .formulario label {
   font-weight: 600;
@@ -650,7 +652,7 @@ h2 {
   margin: 0.5rem;
 }
 .formulario input:not([type=submit]) {
-  padding: 1rem;
+  padding: 1.5rem;
   width: 100%;
   background-color: #EDEDED;
   border: 1px solid #b6b0b0;
