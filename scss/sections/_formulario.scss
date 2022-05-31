@@ -18,6 +18,7 @@
 .formulario{
     background-color: $gris-claro;
     max-width: 100%;
+    font-family: $font;
  
    
     p {
@@ -28,6 +29,7 @@
          font-size: 2rem;
          color: $gris-oscuro;
          font-weight: $bold;
+         font-family: $font;
      }   
      label{
         font-weight: $bold;
