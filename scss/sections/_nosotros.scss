@@ -1,28 +1,24 @@
 
-    .header{
+.header{
     background-color: $gris-oscuro;
     padding: 1rem 0 3rem 0 ;
     height:20rem ;
     
     }
-  .contenido-nosotros{
-     
-      @include tablet{
-        
-         @include grid(2, 5rem);
-         
-      }
-     padding-bottom: 5rem;
-     padding-right: 15rem;
-    
-    }
+
   
 .contenedor.seccion{
     h1{
         color:$verde;
         font-weight: $bold;
+        font-family: $font;
+        margin: 3rem 0;
     }
 }
 .navbar-toggler{
-    background-color: $blanco;
-}
+    
+    background-color: $gris-oscuro;
+    color: $blanco;
+  
+ }
+ 

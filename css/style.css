@@ -484,6 +484,11 @@ template {
   font-size: 3rem;
 }
 
+.navbar-toggler {
+  background-color: #444444;
+  color: #EDEDED;
+}
+
 .barra {
   display: flex;
   flex-direction: column;
@@ -562,15 +567,10 @@ template {
   background-color: #c2bdbd;
   border: 2px solid #c2bdbd;
   font-family: "Krub", sans-serif;
-  padding-right: 2rem;
-}
-
-.contenido-anuncio {
   padding: 2rem;
 }
 
 h3, p {
-  margin: 0;
   text-align: center;
 }
 
@@ -638,25 +638,16 @@ h2 {
   height: 20rem;
 }
 
-.contenido-nosotros {
-  padding-bottom: 5rem;
-  padding-right: 15rem;
-}
-@media (min-width: 768px) {
-  .contenido-nosotros {
-    display: grid;
-    gap: 5rem;
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
 .contenedor.seccion h1 {
   color: #71B100;
   font-weight: 600;
+  font-family: "Krub", sans-serif;
+  margin: 3rem 0;
 }
 
 .navbar-toggler {
-  background-color: #EDEDED;
+  background-color: #444444;
+  color: #EDEDED;
 }
 
 @media (min-width: 768px) {
