@@ -20,7 +20,7 @@
    @include tablet{
       display: flex;
       align-items: center;
-      color: $gris-oscuro;
+      
    }
 
    a{
@@ -30,12 +30,17 @@
       font-size: 2.2rem;
       display: block;
       text-align: center;
+     
       @include tablet{
          margin-right: 2rem;
          &:last-of-type{
             margin-right: 0;
          }
       }
-   }
-  
+  }
 }
+.li{
+   nav-item.dropdown
+ {
+    background-color: aqua;
+ }}
