@@ -509,7 +509,6 @@ template {
   .navbar-nav {
     display: flex;
     align-items: center;
-    color: #444444;
   }
 }
 .navbar-nav a {
@@ -526,6 +525,10 @@ template {
   .navbar-nav a:last-of-type {
     margin-right: 0;
   }
+}
+
+.li nav-item.dropdown {
+  background-color: aqua;
 }
 
 @media (min-width: 768px) {
@@ -634,7 +637,6 @@ h2 {
 
 .header {
   background-color: #444444;
-  padding: 1rem 0 3rem 0;
   height: 20rem;
 }
 
@@ -643,11 +645,6 @@ h2 {
   font-weight: 600;
   font-family: "Krub", sans-serif;
   margin: 3rem 0;
-}
-
-.navbar-toggler {
-  background-color: #444444;
-  color: #EDEDED;
 }
 
 @media (min-width: 768px) {
